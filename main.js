@@ -18,7 +18,9 @@ function debounce(func, wait = 20, immediate = true) {
 }
 
 function checkSlide(e) {
-  console.log(window.scrollY + window.innerHeight);
+  sliderImages.forEach(slideImage => {
+    const slideInAt = (window.scrollY + windowInnerHeight) - slideImage.height/2;
+  });
 }
 
 window.addEventListener('scroll', debounce(checkSlide));
