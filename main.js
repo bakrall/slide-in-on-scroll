@@ -18,7 +18,7 @@ function debounce(func, wait = 20, immediate = true) {
 }
 
 function checkSlide(e) {
-  console.log(window.scrollY);
+  console.log(window.scrollY + window.innerHeight);
 }
 
 window.addEventListener('scroll', debounce(checkSlide));
