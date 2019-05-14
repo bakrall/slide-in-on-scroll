@@ -18,7 +18,7 @@ function debounce(func, wait = 20, immediate = true) {
 }
 
 function checkSlide(e) {
-  console.count(e);
+  console.log(window.scrollY);
 }
 
 window.addEventListener('scroll', debounce(checkSlide));
