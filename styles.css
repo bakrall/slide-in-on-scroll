@@ -17,3 +17,25 @@ body {
 h1 {
   margin-top: 0;
 }
+
+.site-wrap {
+  max-width: 700px;
+  background: #fff;
+  margin: 100px auto;
+  padding: 40px;
+  text-align: justify;
+}
+
+.align-right {
+  float: right;
+  margin: 15px 0 15px 15px;
+}
+
+.align-left {
+  float: left;
+  margin: 15px 15px 15px 0;
+}
+
+.slide-in {
+  opacity: 0;
+}
